@@ -1,0 +1,1 @@
+Get the model binary from https://drive.google.com/drive/folders/10XS4TSvAsMEsVMM_lZgsWD6yTxAbuX9C?usp=sharing
