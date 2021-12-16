@@ -9,6 +9,8 @@ The code, dataset, trained models and annotations for our project are present in
 * [Evaluation of Masking Strategies](https://github.com/nalsingh26/685_Normalize_Text/blob/main/Dataset_creation_AND_Masking_Model.ipynb)
 * [Fine-tuning T5 for text normaliztion](https://github.com/nalsingh26/685_Normalize_Text/blob/main/T5_Seq2Seq_Approach.ipynb) : [Fine-tuned model](https://drive.google.com/drive/folders/10XS4TSvAsMEsVMM_lZgsWD6yTxAbuX9C?usp=sharing)
 * [Masked Language Pipeline](https://github.com/nalsingh26/685_Normalize_Text/blob/main/Masked_Language_Modeling_Approach.ipynb)
+  - [Fine-tuned token classification model](https://drive.google.com/drive/folders/1-NhWRWHlriqtXccjEjuQckOjb5eH7VoS?usp=sharing)
+  - [Trained ML model for similarity weights](https://drive.google.com/file/d/1-1JLnKYLrW-fokcLyNSwKYuRi2_FY2o8/view?usp=sharing)
 * [Evaluation on Downstream Task of Sentiment Analysis](https://github.com/nalsingh26/685_Normalize_Text/blob/main/Downstream_Task_Evaluation.ipynb) : [Pre-trained model used](https://drive.google.com/drive/folders/11ov6WPeaAjTwExbVYQ1JwbgrOTcXbBz6?usp=sharing)
 * The [training/test data and base data for evaluation](https://github.com/nalsingh26/685_Normalize_Text/tree/main/dataset)
 * The [normalized data from the models for sentiment analysis](https://github.com/nalsingh26/685_Normalize_Text/tree/main/predicted_data_and_annotations)
