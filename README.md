@@ -32,7 +32,7 @@ The finetuned, pretrained and optimized models can be found here:
 - [Pre-trained model used for Downstream Tasks](https://drive.google.com/drive/folders/11ov6WPeaAjTwExbVYQ1JwbgrOTcXbBz6?usp=sharing)
 
 This project was completed as a part of COMPSCI 685 at the University of Massachusetts, Amherst and has the following contributors:
-* [fenil25](https://github.com/fenil25)
-* [jimitgandhi](https://github.com/jimitgandhi)
-* [nsingh261](https://github.com/nsingh261)
-* [ruturaj123](https://github.com/Ruturaj123)
+* [Fenil Doshi](https://github.com/fenil25)
+* [Jimit Gandhi](https://github.com/jimitgandhi)
+* [Nalini Singh](https://github.com/nsingh261)
+* [Ruturaj Gujar](https://github.com/Ruturaj123)
