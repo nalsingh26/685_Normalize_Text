@@ -1,8 +1,19 @@
 # Normalizing SMS text using Language Models
 
-In this project, we have written code to add noise similar to that found in SMS texts to any textual dataset. This gives us a SMS like dataset with grammatically correct ground truth labels which facilitates supervised learning and provides an automated way to check model performance on the task.
+In this project, we have written code to create a dataset that mimics SMS languages. We add noise similar to that found in SMS texts to any textual dataset, to obtain an SMS like dataset with grammatically correct ground truth labels which facilitates supervised learning and provides an automated way to check model performance on the task. The main task this dataset serves is the normalization of SMS texts, or converting unnatural words in SMS messages into their normalized, grammatically correct form.
 
-We have explored 2 different approaches for normalizing noisy text data - (1) Masked Language Model Based Approach using BERT and (2) Sequence-to-Sequence approach using T5. In our experiments, we have also evaluated performance improvements achieved on downstream task by denoising textual data.
+There are several types of text abnormalities found in SMS texts, like:
+
+
+We provide an algorithm that randomly introduces all these types of noises into the dataset, to a random number of words. One word may also have multiple types of noise added to itself. Once this dataset is ready, we perform the task of normalization.
+
+We have explored 2 different approaches for normalizing noisy text data - 
+
+1. Masked Language Model Based Approach using BERT 
+
+2. Sequence-to-Sequence approach using T5. 
+
+In our experiments, we have also evaluated performance improvements achieved on downstream task by denoising textual data.
 
 The code, dataset, trained models and annotations for our project are present in this repository.
 * [Dataset Creation](https://github.com/nalsingh26/685_Normalize_Text/blob/main/Dataset_creation_AND_Masking_Model.ipynb)
@@ -15,3 +26,10 @@ The code, dataset, trained models and annotations for our project are present in
 * The [training/test data and base data for evaluation](https://github.com/nalsingh26/685_Normalize_Text/tree/main/dataset)
 * The [normalized data from the models for sentiment analysis](https://github.com/nalsingh26/685_Normalize_Text/tree/main/predicted_data_and_annotations)
 * Annotation of the [generated dataset](https://github.com/nalsingh26/685_Normalize_Text/blob/main/predicted_data_and_annotations/unnormalized_data_annotation.pdf) and [normalized NUS SMS Corpus](https://github.com/nalsingh26/685_Normalize_Text/blob/main/predicted_data_and_annotations/smstext%20-%20annotation.pdf)
+
+
+This project was completed as a part of COMPSCI 682 at the University of Massachusetts, Amherst and has the following contributors:
+* [fenil25](https://github.com/fenil25)
+* [jimitgandhi](https://github.com/jimitgandhi)
+* [nsingh261](https://github.com/nsingh261)
+* [ruturaj123](https://github.com/Ruturaj123)
